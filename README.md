@@ -25,3 +25,15 @@ Enthält den kompletten Python-Code für das Backtesting:
 - **evaluate_passiv.py**
 
     Wertet die passive Investment Strategie aus. Der Code berechnet Ertrag, Volatilität und Drawdown.
+
+## Equity Kurven
+
+## Trades Results
+
+## täglicher Bias
+
+Die vom Code erzeugten Bias-Daten (pro Tag in CSV-Form).
+
+## Marktdaten.zip
+
+Die verwendeten historischen Marktdaten (1-Minuten-Kerzen, 2023–2024)
