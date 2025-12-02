@@ -28,7 +28,11 @@ Enthält den kompletten Python-Code für das Backtesting:
 
 ## Equity Kurven
 
+Enthält die CSV-Dateien, aus denen die Equity-Kurven der Arbeit berechnet wurden. 
+
 ## Trades Results
+
+Alle CSV-Dateien, die während der Entwicklung des Codes entstanden sind. Zudem enthält es den Ordner **Final Results/** welcher die in der Arbeit benutzten Resultate beinhaltet.
 
 ## täglicher Bias
 
@@ -36,4 +40,4 @@ Die vom Code erzeugten Bias-Daten (pro Tag in CSV-Form).
 
 ## Marktdaten.zip
 
-Die verwendeten historischen Marktdaten (1-Minuten-Kerzen, 2023–2024)
+Die verwendeten historischen Marktdaten (1-Minuten-Kerzen, 2023–2024).
