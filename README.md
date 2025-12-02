@@ -31,7 +31,8 @@ Enthält die CSV-Dateien, aus denen die Equity-Kurven der Arbeit berechnet wurde
 
 ## Trades Results/
 
-Enthält alle CSV-Dateien, die während der Entwicklung des Codes entstanden sind. Im Unterordner **Final Results/** befinden sich die Dateien, die in der finalen Maturarbeit verwendet wurden.
+Enthält alle CSV-Dateien, die während der Entwicklung des Codes entstanden sind. 
+Im Unterordner **Final Results/** befinden sich die Dateien, die in der finalen Maturarbeit verwendet wurden.
 
 ## täglicher Bias/
 
@@ -39,4 +40,5 @@ Die vom Code erzeugten täglichen Bias-Daten (bullish/bearish), gespeichert als 
 
 ## Marktdaten.zip
 
-Die verwendeten historischen Marktdaten (1-Minuten-Kerzen, 2023–2024). Um die Datei vollständig anzusehen oder herunterzuladen, bitte auf „View raw“ klicken.
+Die verwendeten historischen Marktdaten (1-Minuten-Kerzen, 2023–2024). 
+Um die Datei vollständig anzusehen, bitte auf „View raw“ klicken, um sie herunterzuladen.
