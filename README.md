@@ -29,7 +29,7 @@ Enthält den kompletten Python-Code für das Backtesting:
 
 Enthält die CSV-Dateien, aus denen die Equity-Kurven der Arbeit berechnet wurden. 
 
-## Trades Results/
+## Trades_Results/
 
 Enthält alle CSV-Dateien, die während der Entwicklung des Codes entstanden sind. 
 Im Unterordner **Final Results/** befinden sich die Dateien, die in der finalen Maturarbeit verwendet wurden.
