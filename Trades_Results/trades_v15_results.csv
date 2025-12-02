@@ -1,0 +1,499 @@
+symbol,day,scenario,bias,recipe,entry_time_utc,entry_price,stop,tp1,tp2,tp3,diag_smt_block,diag_empty_data,diag_vol_floor,diag_gap,diag_no_obbr,diag_eq_fail,diag_no_bos,diag_disp_fail,diag_timebox,diag_choppy,diag_rr1,atr_open,pnl_R,exit_time_utc,exit_price,exit_reason
+SPXUSD,2023-01-03,2,bearish,S2_NY: BOS displacement,2023-01-03 14:52:00+00:00,3839.616,3866.128,3813.104,,,,,,,,,,,,,,,0.5,2023-01-03 21:00:00+00:00,3839.616,timeout
+SPXUSD,2023-01-04,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,5.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-01-05,2,bullish,S2_NY: BOS displacement,2023-01-05 14:51:00+00:00,10767.259,10758.749,10839.799,10948.079,,,,,,,,,,,,,,-1.0,2023-01-05 14:52:00+00:00,10758.749,stop_before_tp1
+SPXUSD,2023-01-06,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,8.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-01-10,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-11,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-12,2,bearish,S2_NY: BOS displacement,2023-01-12 15:43:00+00:00,3970.443,3973.426,3936.67,,,,,,,,,,,,,,,-1.0,2023-01-12 15:55:00+00:00,3973.426,stop_before_tp1
+NSXUSD,2023-01-13,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-01-16,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-17,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-18,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-01-19,2,bullish,S2_NY: BOS displacement,2023-01-19 16:08:00+00:00,11296.489,11289.319,11379.649,11406.059,11407.739,,,,,,,,,,,,,-1.0,2023-01-19 16:20:00+00:00,11289.319,stop_before_tp1
+NSXUSD,2023-01-24,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-01-25,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-26,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-27,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-01-30,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-01-31,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,7.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-01,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-02-02,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,6.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-03,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-06,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-02-08,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-02-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-10,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-02-13,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-14,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-16,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-17,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-02-22,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-23,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-02-24,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-02-27,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-02-28,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-01,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-02,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-03,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-06,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-07,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-08,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-09,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-09,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-10,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-13,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-14,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-15,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-16,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-17,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-20,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-21,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-22,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-23,2,bearish,S2_NY: BOS displacement,2023-03-23 14:56:00+00:00,3995.177,3995.427,3976.614,3951.879,3941.529,,,,,,,,,,,,,-1.0,2023-03-23 14:57:00+00:00,3995.427,stop_before_tp1
+NSXUSD,2023-03-24,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-27,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-27,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-28,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-03-29,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6809999999999425,0.0,,,bad_entry_ts
+SPXUSD,2023-03-30,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-03-31,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-03,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-03,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-04,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6580714285713449,0.0,,,bad_entry_ts
+NSXUSD,2023-04-05,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-06,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,0.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-10,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-11,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-12,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-13,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-14,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-17,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-18,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-19,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-20,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-21,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-24,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-25,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-26,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-04-27,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-04-28,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-01,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-02,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-03,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-05,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-08,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-05-09,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-05-10,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-12,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-15,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-16,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-17,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-05-17,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-18,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6621428571428234,0.0,,,bad_entry_ts
+NSXUSD,2023-05-19,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,7.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-22,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,7.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-05-23,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-05-24,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-25,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-26,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-05-29,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-05-30,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-05-31,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-01,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-02,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-07,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-08,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-09,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-12,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-13,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-14,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-06-15,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-16,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-06-19,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-06-20,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-06-22,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-06-23,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-06-26,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-27,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-28,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-06-28,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-29,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,6.0,0.0,1.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-06-30,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-03,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-07-05,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-07-06,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-07-07,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-07-10,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-11,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-12,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-13,2,bearish,S2_NY: BOS displacement,2023-07-13 13:49:00+00:00,4488.593,4488.843,4483.64,4481.676,4477.406,,,,,,,,,,,,,-1.0,2023-07-13 13:50:00+00:00,4488.843,stop_before_tp1
+SPXUSD,2023-07-18,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-19,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-20,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-07-20,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-21,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-24,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-25,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6637142857141823,0.0,,,bad_entry_ts
+NSXUSD,2023-07-26,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-27,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-07-28,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-08-01,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-08-02,2,bullish,S2_NY: BOS displacement,2023-08-02 14:17:00+00:00,15572.099,15567.049,15620.839,,15684.129,,,,,,,,,,,,,-1.0,2023-08-02 14:27:00+00:00,15567.049,stop_before_tp1
+NSXUSD,2023-08-03,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-08-04,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-07,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-08-08,2,bullish,S2_NY: BOS displacement,2023-08-08 14:16:00+00:00,15290.499,15290.249,15312.189,15348.189,15411.119,,,,,,,,,,,,,-1.0,2023-08-08 14:17:00+00:00,15290.249,stop_before_tp1
+SPXUSD,2023-08-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-10,2,bearish,S2_NY: BOS displacement,2023-08-10 14:22:00+00:00,4494.623,4495.614,4475.883,,,,,,,,,,,,,,,-1.0,2023-08-10 14:31:00+00:00,4495.614,stop_before_tp1
+NSXUSD,2023-08-11,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-14,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-08-15,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-16,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,4.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-08-16,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,7.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-17,2,bearish,S2_NY: BOS displacement,2023-08-17 14:02:00+00:00,4416.397,4419.131,4412.891,4402.807,4396.887,,,,,,,,,,,,,-1.0,2023-08-17 14:30:00+00:00,4419.131,stop_before_tp1
+NSXUSD,2023-08-18,2,bullish,S2_NY: BOS displacement,2023-08-18 14:00:00+00:00,14592.619,14580.939,14604.299,14703.459,14723.499,,,,,,,,,,,,,-1.0,2023-08-18 14:04:00+00:00,14580.939,stop_before_tp1
+SPXUSD,2023-08-21,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,2.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-22,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-23,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-25,2,bearish,S2_NY: BOS displacement,2023-08-25 13:50:00+00:00,4394.611,4394.861,4391.427,4371.827,,,,,,,,,,,,,,-1.0,2023-08-25 13:51:00+00:00,4394.861,stop_before_tp1
+SPXUSD,2023-08-28,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-29,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-08-30,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-08-31,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-09-01,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,5.0,2.0,0.0,0.0,2.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-05,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-06,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-07,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-08,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-11,2,bearish,S2_NY: BOS displacement,2023-09-11 14:24:00+00:00,15407.759,15408.009,15393.039,15347.399,15290.909,,,,,,,,,,,,,-1.0,2023-09-11 14:26:00+00:00,15408.009,stop_before_tp1
+NSXUSD,2023-09-12,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-13,2,bullish,S2_NY: BOS displacement,2023-09-13 14:21:00+00:00,15292.389,15282.039,15313.309,,,,,,,,,,,,,,,1.01063,2023-09-13 15:05:00+00:00,15292.389,breakeven_after_tp1
+NSXUSD,2023-09-15,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-18,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-09-19,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-09-20,2,bearish,S2_NY: BOS displacement,2023-09-20 14:19:00+00:00,4459.656,4459.906,4452.519,4443.527,4438.417,,,,,,,,,,,,,-1.0,2023-09-20 14:23:00+00:00,4459.906,stop_before_tp1
+NSXUSD,2023-09-21,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-09-22,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,4.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-09-25,2,bullish,S2_NY: BOS displacement,2023-09-25 14:29:00+00:00,4307.876,4307.626,4312.614,4336.623,,,,,,,,,,,,,,-1.0,2023-09-25 14:30:00+00:00,4307.626,stop_before_tp1
+NSXUSD,2023-09-26,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-09-27,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-09-28,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-09-29,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-02,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,1.0,4.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-03,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-04,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-05,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-06,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-09,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-09,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-10,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,1.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-10,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-11,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-12,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-13,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-16,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-16,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-17,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-18,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-19,2,bearish,S2_NY: BOS displacement,2023-10-19 14:23:00+00:00,4319.747,4323.16,4300.734,4299.497,,,,,,,,,,,,,,-1.0,2023-10-19 14:30:00+00:00,4323.16,stop_before_tp1
+NSXUSD,2023-10-20,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-23,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-24,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-25,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,6.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-10-26,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-30,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-10-31,2,bearish,S2_NY: BOS displacement,2023-10-31 15:02:00+00:00,4172.001,4172.251,4152.274,,4148.836,,,,,,,,,,,,,-1.0,2023-10-31 15:03:00+00:00,4172.251,stop_before_tp1
+SPXUSD,2023-11-01,2,bearish,S2_NY: BOS displacement,2023-11-01 15:12:00+00:00,4216.744,4223.71,4209.777999999999,4173.53,,,,,,,,,,,,,,0.5,2023-11-01 18:00:00+00:00,4216.744,breakeven_after_tp1
+SPXUSD,2023-11-02,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,8.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-03,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-06,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,5.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-07,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-08,2,bearish,S2_NY: BOS displacement,2023-11-08 15:01:00+00:00,4383.424,4388.027,4378.821,4374.464,4371.694,,,,,,,,,,,,,0.5,2023-11-08 15:09:00+00:00,4383.424,breakeven_after_tp1
+SPXUSD,2023-11-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-10,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-13,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-14,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-15,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-16,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,5.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-17,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-11-17,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-20,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-11-21,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-22,2,bearish,S2_NY: BOS displacement,2023-11-22 14:51:00+00:00,4561.126,4565.617,4552.873,4537.426,4533.807,,,,,,,,,,,,,0.91884,2023-11-22 16:59:00+00:00,4561.126,breakeven_after_tp1
+SPXUSD,2023-11-23,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-24,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-11-24,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-27,2,bearish,S2_NY: BOS displacement,2023-11-27 15:11:00+00:00,4553.761,4554.011,4545.764,,4542.932,,,,,,,,,,,,,-1.0,2023-11-27 15:12:00+00:00,4554.011,stop_before_tp1
+SPXUSD,2023-11-28,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,6.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-11-29,2,bearish,S2_NY: BOS displacement,2023-11-29 15:02:00+00:00,4584.194,4585.257,4574.532,4560.129,4554.567,,,,,,,,,,,,,17.17215,2023-11-29 16:32:00+00:00,4554.983,all_tps_hit
+SPXUSD,2023-11-30,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-11-30,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-01,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-04,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-05,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-06,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-07,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,7.0,0.0,0.0,2.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-08,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-11,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-12,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-13,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-14,2,bearish,S2_NY: BOS displacement,2023-12-14 15:02:00+00:00,4726.927,4729.926,4723.167,4716.679,4715.216,,,,,,,,,,,,,0.62688,2023-12-14 15:27:00+00:00,4726.927,breakeven_after_tp1
+NSXUSD,2023-12-14,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-15,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-18,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-18,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-19,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-20,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-21,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-22,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2023-12-26,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2023-12-29,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-02,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-03,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-04,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-05,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-09,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-10,2,bearish,S2_NY: BOS displacement,2024-01-10 16:12:00+00:00,4764.042,4767.521,4750.239,,4749.272,,,,,,,,,,,,,-1.0,2024-01-10 17:17:00+00:00,4767.521,stop_before_tp1
+NSXUSD,2024-01-11,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-12,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-16,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-17,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-18,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-19,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-22,2,bearish,S2_NY: BOS displacement,2024-01-22 14:57:00+00:00,4863.373,4863.623,4852.12,4848.927,4844.129,,,,,,,,,,,,,-1.0,2024-01-22 14:58:00+00:00,4863.623,stop_before_tp1
+SPXUSD,2024-01-23,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-24,2,bearish,S2_NY: BOS displacement,2024-01-24 16:06:00+00:00,4894.53,4895.624,4879.404,,4872.577,,,,,,,,,,,,,-1.0,2024-01-24 16:22:00+00:00,4895.624,stop_before_tp1
+SPXUSD,2024-01-25,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-26,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,7.0,0.0,0.0,0.0,1.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-01-29,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-30,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-01-31,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-01,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-02,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-06,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-06,2,bullish,S2_NY: BOS displacement,2024-02-06 15:16:00+00:00,4940.897,4940.48,4957.732,,,,,,,,,,,,,,,-1.0,2024-02-06 15:20:00+00:00,4940.48,stop_before_tp1
+SPXUSD,2024-02-07,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-08,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,5.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-12,2,bearish,S2_NY: BOS displacement,2024-02-12 16:00:00+00:00,5033.877,5034.127,5022.117,,,,,,,,,,,,,,,-1.0,2024-02-12 16:04:00+00:00,5034.127,stop_before_tp1
+NSXUSD,2024-02-13,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-14,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-15,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-16,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-20,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-21,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-22,2,bearish,S2_NY: BOS displacement,2024-02-22 14:52:00+00:00,5058.367,5058.617,5040.087,5034.599,5012.652,,,,,,,,,,,,,-1.0,2024-02-22 14:53:00+00:00,5058.617,stop_before_tp1
+SPXUSD,2024-02-23,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-26,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-27,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-02-28,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-02-29,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-01,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-04,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-05,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-07,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-08,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-11,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-12,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-12,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-13,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-14,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-15,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-18,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-19,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-20,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-21,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-22,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-25,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-26,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-27,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-27,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-03-28,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-03-28,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-04-01,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-04-02,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-03,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,6.0,2.0,0.0,1.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-04-03,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-04,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-05,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-04-08,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-09,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-10,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-04-11,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-04-12,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-15,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-16,2,bearish,S2_NY: BOS displacement,2024-04-16 13:56:00+00:00,5070.752,5071.12,5061.614,5049.87,5047.206,,,,,,,,,,,,,-1.0,2024-04-16 13:57:00+00:00,5071.12,stop_before_tp1
+SPXUSD,2024-04-17,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,8.0,0.0,0.0,1.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-18,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-22,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-23,2,bearish,S2_NY: BOS displacement,2024-04-23 13:48:00+00:00,5024.88,5026.121,5015.0,5007.487,5005.319,,,,,,,,,,,,,-1.0,2024-04-23 13:50:00+00:00,5026.121,stop_before_tp1
+SPXUSD,2024-04-25,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-26,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-04-30,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-04-30,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-05-01,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-05-02,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,1.0,2.0,0.0,0.0,1.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-05-03,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-05-03,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-05-06,2,bearish,S2_NY: BOS displacement,2024-05-06 14:24:00+00:00,5149.927,5150.177,5147.111,5132.277,5129.852,,,,,,,,,,,,,-1.0,2024-05-06 14:26:00+00:00,5150.177,stop_before_tp1
+SPXUSD,2024-05-07,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6612142857143876,0.0,,,bad_entry_ts
+NSXUSD,2024-05-07,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.933071428571306,0.0,,,bad_entry_ts
+NSXUSD,2024-05-08,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-05-09,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-05-13,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6226428571427667,0.0,,,bad_entry_ts
+SPXUSD,2024-05-14,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-05-15,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-05-17,2,bearish,S2_NY: BOS displacement,2024-05-17 15:37:00+00:00,5301.282,5301.532,5293.59,5291.922,,,,,,,,,,,,,,-1.0,2024-05-17 15:39:00+00:00,5301.532,stop_before_tp1
+SPXUSD,2024-05-20,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.494571428571362,0.0,,,bad_entry_ts
+SPXUSD,2024-05-21,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6494285714286109,0.0,,,bad_entry_ts
+NSXUSD,2024-05-21,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-05-22,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.470857142857182,0.0,,,bad_entry_ts
+SPXUSD,2024-05-23,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-05-24,2,bearish,S2_NY: BOS displacement,2024-05-24 13:45:00+00:00,5285.617,5286.614,5277.779,5270.832,5269.22,,,,,,,,,,,,,-1.0,2024-05-24 14:01:00+00:00,5286.614,stop_before_tp1
+SPXUSD,2024-05-28,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-05-29,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-05-31,2,bearish,S2_NY: BOS displacement,2024-05-31 14:45:00+00:00,5248.867,5250.117,5233.867,5221.427,5221.132,,,,,,,,,,,,,-1.0,2024-05-31 14:46:00+00:00,5250.117,stop_before_tp1
+NSXUSD,2024-05-31,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-06-03,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-06-04,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-06-05,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-06-07,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-06-10,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-06-11,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-06-12,2,bearish,S2_NY: BOS displacement,2024-06-12 14:16:00+00:00,5423.882,5424.132,5380.857,5378.277,5372.859,,,,,,,,,,,,,-1.0,2024-06-12 14:39:00+00:00,5424.132,stop_before_tp1
+SPXUSD,2024-06-13,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-06-14,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-06-20,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-06-21,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-06-24,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-06-24,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-06-25,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-06-27,2,bearish,S2_NY: BOS displacement,2024-06-27 14:12:00+00:00,5475.332,5475.582,5468.517,5465.517,5453.472,,,,,,,,,,,,,-1.0,2024-06-27 14:14:00+00:00,5475.582,stop_before_tp1
+SPXUSD,2024-06-28,2,bearish,S2_NY: BOS displacement,2024-06-28 15:16:00+00:00,5519.477,5519.727,5487.032,,,,,,,,,,,,,,,-1.0,2024-06-28 15:17:00+00:00,5519.727,stop_before_tp1
+NSXUSD,2024-07-01,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-02,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.545142857143024,0.0,,,bad_entry_ts
+SPXUSD,2024-07-03,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-07-03,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-04,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2650714285714457,0.0,,,bad_entry_ts
+SPXUSD,2024-07-05,2,bearish,S2_NY: BOS displacement,2024-07-05 14:45:00+00:00,5538.123,5540.743,5533.367,,5531.577,,,,,,,,,,,,,-1.0,2024-07-05 14:53:00+00:00,5540.743,stop_before_tp1
+SPXUSD,2024-07-08,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-07-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-10,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4486428571427885,0.0,,,bad_entry_ts
+SPXUSD,2024-07-12,2,bearish,S2_NY: BOS displacement,2024-07-12 14:18:00+00:00,5590.361,5592.111,5570.496,,,,,,,,,,,,,,,-1.0,2024-07-12 14:27:00+00:00,5592.111,stop_before_tp1
+SPXUSD,2024-07-15,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,2.0,3.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-07-16,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-07-17,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-07-19,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-22,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,1.0,0.0,0.0,0.0,3.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-23,2,bearish,S2_NY: BOS displacement,2024-07-23 14:09:00+00:00,5564.707,5564.957,5557.464,5547.387,,,,,,,,,,,,,,-1.0,2024-07-23 14:10:00+00:00,5564.957,stop_before_tp1
+NSXUSD,2024-07-24,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-07-25,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-26,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-30,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-07-31,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-08-01,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-08-02,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-08-05,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-07,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-12,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-13,2,bearish,S2_NY: BOS displacement,2024-08-13 14:00:00+00:00,5377.87,5378.12,5364.046,5349.806,5345.127,,,,,,,,,,,,,-1.0,2024-08-13 14:01:00+00:00,5378.12,stop_before_tp1
+SPXUSD,2024-08-14,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-08-14,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-15,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-08-16,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-08-19,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-20,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6662142857141718,0.0,,,bad_entry_ts
+SPXUSD,2024-08-21,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-08-22,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-23,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.690785714285669,0.0,,,bad_entry_ts
+SPXUSD,2024-08-26,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-27,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-28,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-08-29,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-09-02,2,bullish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.969571428571466,0.0,,,bad_entry_ts
+SPXUSD,2024-09-03,2,bullish,S2_NY: BOS displacement,2024-09-03 14:19:00+00:00,5615.879,5615.629,5622.927,5649.814,5653.434,,,,,,,,,,,,,-1.0,2024-09-03 14:20:00+00:00,5615.629,stop_before_tp1
+NSXUSD,2024-09-05,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-09-06,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-09,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-10,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-12,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-13,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,5.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-16,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-09-16,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-17,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,4.0,3.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-18,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,2.0,3.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-19,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-09-20,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-09-23,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-24,2,bearish,S2_NY: BOS displacement,2024-09-24 14:29:00+00:00,5727.097,5727.347,5719.447,5715.962,5708.354,,,,,,,,,,,,,-1.0,2024-09-24 14:30:00+00:00,5727.347,stop_before_tp1
+NSXUSD,2024-09-25,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-09-26,2,bearish,S2_NY: BOS displacement,2024-09-26 14:21:00+00:00,5770.303,5770.823,5762.62,5760.021,5724.287,,,,,,,,,,,,,34.45385,2024-09-26 18:19:00+00:00,5723.372,all_tps_hit
+NSXUSD,2024-09-27,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-09-30,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-01,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-03,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-10-04,2,bearish,S2_NY: BOS displacement,2024-10-04 16:14:00+00:00,5715.514,5717.287903571429,5701.516,5697.823,5693.377,,,,,,,,,,,,,-1.0,2024-10-04 16:17:00+00:00,5717.287903571429,stop_before_tp1
+NSXUSD,2024-10-07,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-08,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-10-09,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-09,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-10,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-11,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-10-14,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5517857142856754,0.0,,,bad_entry_ts
+NSXUSD,2024-10-15,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-10-17,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,7.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-10-18,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-21,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-22,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-23,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-10-24,2,bearish,S2_NY: BOS displacement,2024-10-24 14:21:00+00:00,5824.814,5825.469,5822.354,5811.997,5800.607,,,,,,,,,,,,,16.00916,2024-10-24 16:39:00+00:00,5800.463,all_tps_hit
+SPXUSD,2024-10-25,2,bearish,S2_NY: BOS displacement,2024-10-25 14:24:00+00:00,5835.626,5835.876,5827.617,5813.126,5807.876,,,,,,,,,,,,,-1.0,2024-10-25 14:30:00+00:00,5835.876,stop_before_tp1
+SPXUSD,2024-10-28,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-28,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,3.0,7.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-10-29,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-10-30,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-01,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,2.0,2.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-04,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-05,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-07,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-08,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-11,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-12,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-13,2,bearish,S2_NY: BOS displacement,2024-11-13 16:04:00+00:00,5985.702,5986.977828571429,5965.383,,,,,,,,,,,,,,,-1.0,2024-11-13 16:08:00+00:00,5986.977828571429,stop_before_tp1
+SPXUSD,2024-11-14,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-15,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-18,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-19,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-20,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-21,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-22,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-25,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-26,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-27,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-11-28,2,bearish,S2_NY: diagnostics (ATR floor),,,,,,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4220714285713386,0.0,,,bad_entry_ts
+SPXUSD,2024-11-29,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-11-29,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-02,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-03,2,bullish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-04,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-06,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-09,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-10,2,bearish,S2_NY: diagnostics (SMT blocked),,,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-11,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-12,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-13,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-16,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,1.0,8.0,1.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-17,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-18,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-18,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-19,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-20,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-23,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-24,2,bearish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-26,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-27,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+NSXUSD,2024-12-30,2,bullish,S2_NY: diagnostics (no valid candidates),,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,,0.0,,,bad_entry_ts
+SPXUSD,2024-12-31,2,bearish,S2_NY: BOS displacement,2024-12-31 15:33:00+00:00,5912.656,5916.816,5905.227,5899.856,5897.457,,,,,,,,,,,,,-1.0,2024-12-31 15:36:00+00:00,5916.816,stop_before_tp1
