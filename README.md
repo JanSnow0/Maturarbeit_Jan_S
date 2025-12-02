@@ -7,21 +7,21 @@ Enthält den kompletten Python-Code für das Backtesting:
 
 - **strategy/**
     
-Alle Kernfunktionen der Trading-Strategie.
-Die Funktionsweise ist in der Maturarbeit beschrieben.
+    Alle Kernfunktionen der Trading-Strategie.
+    Die Funktionsweise ist in der Maturarbeit beschrieben.
 
 - **run_ny.py**
 
-Startet den gesamten Backtest für die New-York-Session.
+    Startet den gesamten Backtest für die New-York-Session.
 
 - **daily_bias.py**
 
-Berechnet den täglichen Bias und erstellt die entsprechende CSV-Datei.
+    Berechnet den täglichen Bias und erstellt die entsprechende CSV-Datei.
 
 - **evaluate_trades.py**
 
-Wertet die Trades aus und berechnet Ertrag, Volatilität und Drawdown.
+    Wertet die Trades aus und berechnet Ertrag, Volatilität und Drawdown.
 
 - **evaluate_passiv.py**
 
-Wertet die passive Investment Strategie aus. Der Code berechnet Ertrag, Volatilität und Drawdown.
+    Wertet die passive Investment Strategie aus. Der Code berechnet Ertrag, Volatilität und Drawdown.
