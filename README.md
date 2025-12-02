@@ -7,8 +7,7 @@ Enthält den kompletten Python-Code für das Backtesting:
 
 - **strategy/**
     
-    Alle Kernfunktionen der Trading-Strategie.
-    Die Funktionsweise ist in der Maturarbeit beschrieben.
+    Alle Kernfunktionen der Trading-Strategie. Die genaue Funktionsweise ist in der Maturarbeit erklärt.
 
 - **run_ny.py**
 
@@ -24,20 +23,20 @@ Enthält den kompletten Python-Code für das Backtesting:
 
 - **evaluate_passiv.py**
 
-    Wertet die passive Investment Strategie aus. Der Code berechnet Ertrag, Volatilität und Drawdown.
+    Berechnet Ertrag, Volatilität und Drawdown der passiven Investmentstrategie (Buy-and-Hold).
 
-## Equity Kurven
+## Equity-Kurven/
 
 Enthält die CSV-Dateien, aus denen die Equity-Kurven der Arbeit berechnet wurden. 
 
-## Trades Results
+## Trades Results/
 
-Alle CSV-Dateien, die während der Entwicklung des Codes entstanden sind. Zudem enthält es den Ordner **Final Results/** welcher die in der Arbeit benutzten Resultate beinhaltet.
+Enthält alle CSV-Dateien, die während der Entwicklung des Codes entstanden sind. Im Unterordner **Final Results/** befinden sich die Dateien, die in der finalen Maturarbeit verwendet wurden.
 
-## täglicher Bias
+## täglicher Bias/
 
-Die vom Code erzeugten Bias-Daten (pro Tag in CSV-Form).
+Die vom Code erzeugten täglichen Bias-Daten (bullish/bearish), gespeichert als CSV.
 
 ## Marktdaten.zip
 
-Die verwendeten historischen Marktdaten (1-Minuten-Kerzen, 2023–2024).
+Die verwendeten historischen Marktdaten (1-Minuten-Kerzen, 2023–2024). Um die Datei vollständig anzusehen oder herunterzuladen, bitte auf „View raw“ klicken.
